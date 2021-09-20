@@ -1,0 +1,343 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+ @font-face { font-family: Stranger; src: url('../fonts/stranger.ttf'); } 
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+#intro {
+    background-image: url("../img/211.png");
+    background-size: cover; 
+}
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+    text-shadow: 
+    -1px -1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#about {
+    background-image: url("../img/bg1.png");
+    background-size: cover;
+
+}
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background: #eee;
+    padding-top: 100;
+    color: #ffffff;
+    text-shadow: 
+    -1px -1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
+}
+.buton-end {
+    text-shadow: 
+    0px 0px 0 #000,
+    0px 0px 0 #000,
+    0px 0px 0 #000,
+    0px 0px 0 #000;
+
+}
+
+.rice {
+    color: #17ff00;
+    text-shadow: 
+    -1px -1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.strong {
+    color: #fff;
+    text-shadow: 
+    -1px -1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.jeff {
+    color: #d80c25;
+}
+
+#services {
+    background-image: url("../img/bg2.png");
+    background-size: cover;
+
+}
+
+
+.services-section {
+  height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background: #eee;
+    padding-top: 100;
+    color: #ffffff;
+    text-shadow: 
+    -1px -1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;}
+
+#services {
+    background-image: url("../img/bg2.png");
+    background-size: cover;
+
+}
+
+#contact {
+    background-image: url("../img/bg3.png");
+    background-size: cover;
+
+}
+
+.contact-section {
+      height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background: #eee;
+    padding-top: 100;
+    color: #ffffff;
+    text-shadow: 
+    -1px -1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;}
+
+    #depression {
+    background-image: url("../img/bg4.png");
+    background-size: cover;
+
+}
+
+.depression-section {
+      height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background: #eee;
+    padding-top: 100;
+    color: #ffffff;
+    text-shadow: 
+    -1px -1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;}
+
+       #flag {
+    background-image: url("../img/bg5.png");
+    background-size: cover;
+
+    }
+
+.flag-section {
+      height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background: #eee;
+    padding-top: 100;
+    color: #ffffff;
+    text-shadow: 
+    -1px -1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;}
+
+    #ms {
+    background-image: url("../img/bg6.png");
+    background-size: cover;
+
+       }
+
+.ms-section {
+      height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background: #eee;
+    padding-top: 100;
+    color: #ffffff;
+    text-shadow: 
+    -1px -1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;}
+
+     #az {
+    background-image: url("../img/bg7.png");
+    background-size: cover;
+
+       }
+
+.az-section {
+      height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background: #eee;
+    padding-top: 100;
+    color: #ffffff;
+    text-shadow: 
+    -1px -1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;}
+
+         #kd {
+    background-image: url("../img/bg8.png");
+    background-size: cover;
+
+           }
+
+.kd-section {
+      height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background: #eee;
+    padding-top: 100;
+    color: #ffffff;
+    text-shadow: 
+    -1px -1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;}
+
+
+         #ar {
+    background-image: url("../img/bg9.png");
+    background-size: cover;
+
+               }
+
+.ar-section {
+      height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background: #eee;
+    padding-top: 100;
+    color: #ffffff;
+    text-shadow: 
+    -1px -1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;}
+
+             #ka {
+    background-image: url("../img/bg9.png");
+    background-size: cover;
+
+               }
+
+.ka-section {
+      height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background: #eee;
+    padding-top: 100;
+    color: #ffffff;
+    text-shadow: 
+    -1px -1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;}
+
+
+             #nb {
+    background-image: url("../img/bg10.png");
+    background-size: cover;
+
+                   }
+
+.nb-section {
+      height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background: #eee;
+    padding-top: 100;
+    color: #ffffff;
+    text-shadow: 
+    -1px -1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;}
+
+                 #bd {
+    background-image: url("../img/bg11.png");
+    background-size: cover;
+
+                   }
+
+.bd-section {
+      height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background: #eee;
+    padding-top: 100;
+    color: #ffffff;
+    text-shadow: 
+    -1px -1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;}
+
+
+                 #pm {
+    background-image: url("../img/bg12.png");
+    background-size: cover;
+
+                   }
+
+.pm-section {
+      height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background: #eee;
+    padding-top: 100;
+    color: #ffffff;
+    text-shadow: 
+    -1px -1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;}
+
+
+.gametitle{
+    font-size: 200px;
+    font-family: 'Stranger'; /*a name to be used later*/
+}
